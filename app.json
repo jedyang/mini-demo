@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/icon/index",
+    "pages/process/index",
+    "pages/richtext/index",
+    "pages/slide/index",
+    "pages/vtabs/index",
+    "pages/mul-select/index",
+    "pages/vertical-slider/index",
+    "pages/navicate/index",
+    "pages/event/index",
+    "pages/event/emitPage",
+    "pages/tabbar1/index",
+    "pages/tabbar2/index",
+    "pages/tabbar1/index2",
+    "pages/tabbar1/index3",
+    "pages/tabbar2/index2/index",
+    "pages/tabbar2/index3/index"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/tabbar1/index",
+        "iconPath": "/components/custom-tab-bar/component.png",
+        "selectedIconPath": "/components/custom-tab-bar/component-on.png",
+        "text": "index1"
+      },
+      {
+        "pagePath": "pages/tabbar1/index2",
+        "iconPath": "/components/custom-tab-bar/component.png",
+        "selectedIconPath": "/components/custom-tab-bar/component-on.png",
+        "text": "index2"
+      },
+      {
+        "pagePath": "pages/tabbar1/index3",
+        "iconPath": "/components/custom-tab-bar/component.png",
+        "selectedIconPath": "/components/custom-tab-bar/component-on.png",
+        "text": "index3"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序代码示例",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

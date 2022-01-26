@@ -1,0 +1,4 @@
+<!--pages/tabbar2/index2/index.wxml-->
+<text>pages/tabbar2/index2/index.wxml</text>
+
+<CustomTabBar index="1" bindpagenavigating="onPageNavigating"></CustomTabBar>

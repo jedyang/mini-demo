@@ -1,0 +1,5 @@
+<!--pages/event/index.wxml-->
+<text>pages/event/index.wxml</text>
+
+<button bindtap="onSubjectA">订阅主题SubjectA</button>
+<navigator url="/pages/event/emitPage">到另一个页面发布主题出发</navigator>

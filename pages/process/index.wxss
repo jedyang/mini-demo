@@ -1,0 +1,5 @@
+/* pages/process/index.wxss */
+/* progress已产生的进度条如何设置圆角 */
+.wx-progress-inner-bar {
+  border-radius: 5px;
+}

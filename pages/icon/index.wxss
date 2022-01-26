@@ -1,0 +1,19 @@
+/* pages/icon/index.wxss */
+
+@font-face {
+  font-family: 'iconfont';  /* Project id 2824366 */
+  src: url('//at.alicdn.com/t/font_2824366_kik50p1ezy.woff2?t=1632111263136') format('woff2'),
+       url('//at.alicdn.com/t/font_2824366_kik50p1ezy.woff?t=1632111263136') format('woff'),
+       url('//at.alicdn.com/t/font_2824366_kik50p1ezy.ttf?t=1632111263136') format('truetype');
+}
+
+.myfont {
+  font-family: 'iconfont';
+  font-size: 100rpx;
+}
+
+.icon-hide::before {
+  content: '\e8ee';
+  color: red;
+  font-size: 50rpx;
+}

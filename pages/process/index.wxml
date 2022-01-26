@@ -1,0 +1,23 @@
+<!--pages/process/index.wxml-->
+<view class="gap">单击模拟网络异步</view>
+<progress show-info bindtap="onTapProgressBar" stroke-width="2" percent="{{percentValue}}" backgroundColor="#f2f2f2" active-mode="forwards" active bindactiveend="onProgressActiveEnd"/>
+
+<!-- progress已产生的进度条如何设置圆角？-->
+<view class="gap"></view>
+<view class="gap">progress已产生的进度条如何设置圆角？</view>
+<!-- progress中的border-radius设置的是外框，不是进度条 -->
+<!-- 要修改这个类wx-progress-inner-bar -->
+<progress border-radius="5" percent="20" show-info />
+
+<!-- 已经加载完的进度条progress，怎么点击某个按钮让它重新加载呢？ -->
+<view class="gap"></view>
+<view class="gap">已经加载完的进度条progress，怎么点击某个按钮让它重新加载呢？</view>
+<progress bindtap="onTapProgressBar" percent="{{percentValue}}" active-mode="forwards" active show-info="{{false}}" bindactiveend="onProgressActiveEnd"/>
+<button bindtap="onTapReloadBtn">重新加载</button>
+
+<view class="gap">progress 右边进度的百分比数字，它的颜色怎么设置？</view>
+<progress percent="40" stroke-width="5" show-info style="color:red"/>
+
+<view class="gap">环形进度条</view>
+<circle-progress id="progress1" percent="{{percentValue}}" />
+<button bindtap="drawProgress">redraw</button>

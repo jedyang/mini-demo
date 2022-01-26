@@ -1,0 +1,3 @@
+<!--pages/icon/index.wxml-->
+<text>pages/icon/index.wxml</text>
+<icon class="myfont icon-hide"></icon>

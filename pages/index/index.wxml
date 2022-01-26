@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <navigator url="/pages/icon/index">自定义icon</navigator>
+  <navigator url="/pages/process/index">process进度条</navigator>
+  <navigator url="/pages/richtext/index">富文本解析</navigator>
+  <navigator url="/pages/slide/index">左滑删除</navigator>
+  <navigator url="/pages/vtabs/index">侧边栏商品类目</navigator>
+  <navigator url="/pages/mul-select/index">自定义多级选择器</navigator>
+  <navigator url="/pages/vertical-slider/index">竖向选择器</navigator>
+  <navigator url="/pages/navicate/index">自定义导航</navigator>
+  <navigator url="/pages/event/index">发布订阅功能</navigator>
+  <navigator open-type="switchTab"  url="/pages/tabbar1/index">自定义tabbar</navigator>
+  <navigator url="/pages/tabbar2/index">自定义tabbar2</navigator>
+</view>
